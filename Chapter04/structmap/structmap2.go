@@ -8,7 +8,7 @@ import (
 type Person2 struct {
 	Firstname string
 	Lastname  string
-	Address   []string
+	Address   []string // slice define not array
 }
 
 func main() {
