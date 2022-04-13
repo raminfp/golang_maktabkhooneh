@@ -4,6 +4,11 @@ import "fmt"
 
 func main() {
 
+	// array
+	var myarray [2]string
+	myarray[0] = "1"
+	myarray[1] = "2"
+	// slice
 	a := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 	sliceprint(a[:7])
